@@ -48,6 +48,10 @@ loaded by module loaders such as [RequireJS](http://requirejs.org/).
 
 This module is optimized for use with [Anchor](https://github.com/anchorjs/anchor).
 
+## Implements
+
+This module (partially) conforms to the interface exported by [node-xmpp](https://github.com/astro/node-xmpp).
+
 ## Tests
 
 ##### Browser
