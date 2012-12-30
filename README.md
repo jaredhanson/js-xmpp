@@ -1,5 +1,8 @@
 # XMPP
 
+This module implements support for connecting to [XMPP](http://xmpp.org/)
+networks.
+
 ## Install
 
 ##### volo
@@ -9,6 +12,32 @@
 For more information on using volo to manage JavaScript modules, visit [http://volojs.org/](http://volojs.org/).
 
 ## Usage
+
+Create an XMPP connection.
+
+```javascript
+var client = xmpp.createConnection({
+  jid: 'juliet@jabber.org',
+  password: 'secret',
+  boshURL: 'http://127.0.0.1:5280/http-bind'
+});
+```
+
+Send stanzas.
+
+```javascript
+var message = xml('message', { to: 'romeo@example.net' })
+                .c('body').t('Art thou not Romeo, and a Montague?').root();
+client.send(message);
+```
+
+Process incoming stanzas.
+
+```javascript
+client.on('stanza', function(stanza) {
+  // process stanza
+});
+```
 
 ## Compatibility
 
