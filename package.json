@@ -1,0 +1,43 @@
+{
+  "name": "xmpp",
+  "version": "0.0.0",
+  "description": "XMPP module for Anchor.js.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/js-xmpp.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/js-xmpp/issues"
+  },
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "main",
+  "devDependencies": {
+    "express": "3.x.x",
+    "mocha-phantomjs": "1.x.x",
+    "mocha-cloud": "0.0.1",
+    "term-canvas": "0.0.5",
+    "mocha-cloud-grid-view": "0.0.1"
+  },
+  "volo": {
+    "dependencies": {
+      "class": "github:anchorjs/class/master",
+      "events": "github:anchorjs/events/master",
+      "xml": "github:anchorjs/xml/master",
+      "base64": "github:anchorjs/base64/master",
+      "bosh": "github:jaredhanson/js-bosh/master",
+      "sasl": "github:jaredhanson/js-sasl/master",
+      "sasl-plain": "github:jaredhanson/js-sasl-plain/master",
+      "debug": "github:anchorjs/debug/master"
+    }
+  }
+}
