@@ -39,6 +39,10 @@ client.on('stanza', function(stanza) {
 });
 ```
 
+## Implements
+
+This module (partially) conforms to the interface exported by [node-xmpp](https://github.com/astro/node-xmpp).
+
 ## Compatibility
 
 ##### Browser
@@ -48,9 +52,11 @@ loaded by module loaders such as [RequireJS](http://requirejs.org/).
 
 This module is optimized for use with [Anchor](https://github.com/anchorjs/anchor).
 
-## Implements
+## See Also
 
-This module (partially) conforms to the interface exported by [node-xmpp](https://github.com/astro/node-xmpp).
+ - [Junction](https://github.com/jaredhanson/junction)
+ - [BOSH](https://github.com/jaredhanson/js-bosh)
+ - [XML](https://github.com/anchorjs/xml)
 
 ## Tests
 
