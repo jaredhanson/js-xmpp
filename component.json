@@ -1,0 +1,18 @@
+{
+  "name": "xmpp",
+  "version": "0.0.0",
+  "description": "XMPP module for Anchor.js.",
+  "repo": "jaredhanson/js-xmpp",
+  "main": "main.js",
+  "scripts": [
+    "main.js",
+    "lib/client.js",
+    "lib/connection.js",
+    "lib/jid.js",
+    "lib/stanza.js"
+  ],
+  "dependencies": {
+    "jaredhanson/js-bosh": "*"
+  },
+  "license": "MIT"
+}
